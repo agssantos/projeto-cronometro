@@ -1,11 +1,30 @@
 *{
-    outline: 1px solid red;
+    color: white;
+    /* outline: 1px solid red; */
 }
 
 body {
+    background-color: black;
     overflow: hidden;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+
+/* Botões  */
+button {
+    border: none;
+    height: 1.5em;
+    width: 6em;
+}
+
+.começar-btn {
+    background-color: green;
+}
+
+.parar-btn {
+    background-color: grey;
+}
+
+.resetar-btn {
+    background-color: red;
 }
